@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.androiddevios.simpletabs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <com.androiddevios.utils.CustomTextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tab_demo"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/val20sp"
+        app:type="Trebuchet_MS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/val15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.androiddevios.utils.CustomButton
+            android:id="@+id/btnPush"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/val15sp"
+            app:type="Trebuchet_MS" />
+
+        <com.androiddevios.utils.CustomButton
+            android:id="@+id/btnPop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/val15sp"
+            app:type="Trebuchet_MS" />
+    </LinearLayout>
+
+</LinearLayout>
